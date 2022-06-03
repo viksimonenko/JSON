@@ -1,0 +1,12 @@
+{
+  "apiTesting": "Postman",
+  "sniffingTools": "Charles, Fiddler",
+  "devTools": "Google Chrome, FireFox",
+  "externalServer": "Logs reading",
+  "mobileTesting": "Android Studio, ADB",
+  "setProxyVpn": "Android",
+  "commandLine": "Terminal",
+  "sqlBasics": "Create, Delete, Drop, Insert Into, Select, From, Where, Join",
+  "db": "Postgres, Redis",
+  "loadTesting": "Jmeter"
+ }
