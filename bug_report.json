@@ -1,1 +1,18 @@
-
+{
+  "id": 1,
+  "summary": "The application closes after attempt to edit the Note title on the start page",
+  "severity": "Critical",
+  "description": "If try to edit the Note title on the start page, the application stops working and closes",
+  "environment": "Xiaomi Redmi 6A, Android 9",
+  "reproducibility": "always",
+  "symptom": "system crash",
+  "stepsToReproduce": {		
+	  "1": "Tap on “New note” icon and enter the text",
+	  "2": "Tap on “Save” icon",
+	  "3": "Tap a few seconds on the Note",
+	  "4": "Scroll down to “Edit title” item in pop-up menu",
+	  "5": "Tap on “Edit title” item"	
+	}
+  "actualResult": "The application closes after attempt to edit the Note title on the start page",
+  "expectedResult": "The application continues working and Edit title field opens"
+ }
